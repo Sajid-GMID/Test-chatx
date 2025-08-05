@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.19",
+  "version": "1.0.0",
+  "id": "f63f746e-1cd3-4840-bfb2-d06d2b7eb716",
+  "developer": {
+    "name": "teams genie Corp",
+    "websiteUrl": "https://example.azurewebsites.net",
+    "privacyUrl": "https://example.azurewebsites.net/privacy",
+    "termsOfUseUrl": "https://example.azurewebsites.net/termsofuse"
+  },
+  "name": {
+    "short": "Teams Genie",
+    "full": "Teams Genie"
+  },
+  "description": {
+    "short": "Demonstrates Genie integration in Teams.",
+    "full": "Demonstrates Genie integration in Teams."
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#abcdef",
+  "bots": [
+    {
+      "botId": "f63f746e-1cd3-4840-bfb2-d06d2b7eb716",
+      "scopes": [
+        "personal"
+      ],
+      "isNotificationOnly": false,
+      "supportsCalling": false,
+      "supportsVideo": false,
+      "supportsFiles": true
+    }
+  ],
+  "validDomains": [
+    "*.azurewebsites.net",
+    "*.botframework.com",
+    "*.*"
+  ],
+  "webApplicationInfo": {
+    "id": "f63f746e-1cd3-4840-bfb2-d06d2b7eb716",
+    "resource": "api://botid-95b0bffc-9d06-9249-ff9e-552c040a0d10"
+  }
+}
