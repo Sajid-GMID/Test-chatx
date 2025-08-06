@@ -125,3 +125,4 @@ sequenceDiagram
     User->>Azure Portal: Configure Web App settings
     User->>Azure Portal: Test Bot in Web Chat
     User->>Teams: Test Bot in Microsoft Teams
+```
