@@ -1,6 +1,32 @@
-[Project Name]
-
-Copyright (2018) Databricks, Inc.
-
+Copyright (202X) Databricks, Inc.
 
 This Software includes software developed at Databricks (https://www.databricks.com/) and its use is subject to the included LICENSE file.
+
+________________
+This Software contains code from the following open source projects, licensed under the BSD 3-Clause license (https://opensource.org/license/bsd-3-clause):
+
+theskumar/python-dotenv - https://github.com/theskumar/python-dotenv
+Copyright (c) 2014, Saurabh Kumar (python-dotenv), 2013, Ted Tieken (django-dotenv-rw), 2013, Jacob Kaplan-Moss (django-dotenv)
+
+
+andialbrecht/sqlparse - https://github.com/andialbrecht/sqlparse
+Copyright (c) 2016, Andi Albrecht <albrecht.andi@gmail.com>
+All rights reserved.
+
+________________
+This Software contains code from the following open source projects, licensed under the Apache 2.0 license (https://www.apache.org/licenses/LICENSE-2.0):
+
+aio-libs/aiohttp - https://github.com/aio-libs/aiohttp
+Copyright aio-libs contributors.
+
+databricks/databricks-sdk-py - https://github.com/databricks/databricks-sdk-py
+Copyright (2023) Databricks, Inc.
+
+________________
+This Software contains code from the following open source projects, licensed under the MIT license (https://opensource.org/license/mit):
+
+Microsoft/botbuilder-python - https://github.com/Microsoft/botbuilder-python
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+microsoft/botbuilder-js - https://github.com/microsoft/botbuilder-js
+Copyright (c) Microsoft Corporation. All rights reserved.
