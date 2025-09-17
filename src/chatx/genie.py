@@ -129,7 +129,7 @@ class GenieQuerier:
                 message="No attachment found", conversation_id=conversation_id
             )
 
-        except errors.platform.PermissionDenied as e:
+        except errors.platform.PermissionDenied:
             return GenieResult(
                 message=TOKEN_EXPIRED_MESSAGE,
                 conversation_id=conversation_id,
