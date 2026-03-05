@@ -44,7 +44,7 @@ DIALOG = LoginDialog(OAUTH_CONNECTION_NAME)
 # Create Bot
 BOT = MyBot(CONVERSATION_STATE, USER_STATE, DIALOG, auth_method=AUTH_METHOD)
 
-SETTINGS = BotFrameworkAdapterSettings(APP_ID, APP_PASSWORD)
+SETTINGS = BotFrameworkAdapterSettings(APP_ID, APP_PASSWORD,channel_auth_tenant="c8cb5efb-7d9b-4ad6-8d81-36ce89e19f67")
 ADAPTER = BotFrameworkAdapter(SETTINGS)
 
 
